@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/oddinary/:path*", "destination": "https://nuxtjs.arhen.dev/:path*" }
+    { "source": "/oddinary/:path*", "destination": "https://nuxtjs.arhen.dev/oddinary/:path*" }
   ]
 }
