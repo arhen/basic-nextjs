@@ -2,6 +2,7 @@
   "rewrites": [
     { "source": "/oddinary/:path*", "destination": "https://nuxtjs.arhen.dev/oddinary/:path*" },
 	{ "source": "/fonts/:path*", "destination": "https://nuxtjs.arhen.dev/fonts/:path*" },
-    { "source": "/images/:path*", "destination": "https://nuxtjs.arhen.dev/images/:path*" }
+    { "source": "/images/:path*", "destination": "https://nuxtjs.arhen.dev/images/:path*" },
+    { "source": "/_vercel/:path*", "destination": "https://nuxtjs.arhen.dev/_vercel/:path*" }
   ]
-}
+}	
